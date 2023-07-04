@@ -72,6 +72,8 @@ align-self: stretch;
 }
 
 .content {
+width: 780px;
+align-items: stretch;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -84,7 +86,6 @@ padding: 0px 48px;
 flex-direction: column;
 align-items: flex-start;
 gap: 24px;
-align-self: stretch;
 }
 
 .title {
@@ -122,7 +123,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat
 .text-avatar {
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: flex-start;
 align-items: flex-start;
 gap: 4px;
 }
@@ -137,7 +138,7 @@ line-height: normal;
 letter-spacing: -0.72px;
 }
 
-.date {
+.date-ms {
 color: #727272;
 font-size: 14px;
 font-family: Inter;
@@ -149,7 +150,7 @@ letter-spacing: -0.63px;
 
 .information {
 display: flex;
-width: 680px;
+padding: 0px 48px;
 flex-direction: column;
 color: var(--black-500, #232E52);
 font-size: 18px;
@@ -163,21 +164,20 @@ line-height: 150%;
 display: flex;
 flex-direction: column;
 align-items: center;
+align-items: stretch;
 }
 
 .pavel {
 width: 780px;
-height: 490px;
 border-radius: 10px 10px 0px 0px;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 .bottom-img {
   display: flex;
-  width: 780px;
+  padding-left: 20px;
   padding-top: 14px;
   padding-bottom: 14px;
-  align-items: center;
   gap: 10px;
   border-radius: 0px 0px 10px 10px;
   background: var(--blue-100, #EBF2FE);
@@ -193,13 +193,13 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 .binco {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  align-self: stretch;
+  gap: 24px;
 }
 
 .robots {
-  width: 395px;
+  height: 282px;
   border-radius: 14px;
-  padding: 5px;
 }
 
 .video {
@@ -231,7 +231,8 @@ width: 970px;
 height: 2px;
 justify-content: center;
 align-items: center;
-gap: 60px;
+margin-top: 50px;
+margin-bottom: 50px;
 background: #DADADA;
 }
 
