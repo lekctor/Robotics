@@ -21,6 +21,8 @@
     display: inline-flex;
     flex-direction: row;
     align-items: center;
+    text-decoration: none;
+    cursor: pointer;
   }
   .logo-text {
     font-family: 'Inter';
@@ -247,8 +249,6 @@ background: #DADADA;
 .article:hover {
   transform: scale(1.03);
   cursor: pointer;
-  background: linear-gradient(315deg, rgba(201, 201, 201, 0.50) 0%, #FFF 100%);
-  border: 2px solid rgba(243, 243, 243, 0.5);
   border-radius: 16px;
 }
 
